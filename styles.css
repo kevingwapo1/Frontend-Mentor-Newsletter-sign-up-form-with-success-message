@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-family: 'RobotoBold';
+    src: url('assets/fonts/Roboto-Bold.ttf') format('truetype');
+    font-style: normal;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #36384d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    line-height: 1.6;
+    height: 100vh;
+}
+.sign-up{
+    max-width: 900px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.join{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-family: 'RobotoBold';
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 15px;
+}
+ul {
+    margin-bottom: 30px;
+    list-style: none;
+}
+ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.icon-check{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-family: 'RobotoBold';
+    margin-bottom: 5px;
+}
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+button {
+    padding: 10px;
+    background-color: #232742;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background: linear-gradient(45deg, #ff5e62, #ff9966);
+}
+
+.illustration {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.illustration img {
+    max-width: 350px;
+    border-radius: 10px;
+}
+.thank-you {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 40px;
+}
+.thank-you-content {
+    font-family: 'RobotoBold';
+    margin-left: 10px;
+    margin-bottom: 10px; 
+}
+.thank-you h1{
+    font-size: 3rem;
+}
+.email-text {
+    font-weight: bold;
+}
+.thank-you p {
+    font-size: 1rem; 
+    margin-bottom: 15px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+.label-container {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    margin-bottom: 5px;  
+    width: 100%;
+}
+
+label {
+    font-family: 'RobotoBold';
+    font-size: 1rem;
+}
+
+.error-message {
+    color: #f96262; 
+    font-size: 0.9rem;
+    white-space: nowrap;  
+    margin-left: 10px;
+    display: none; 
+}
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input[type="email"].error {
+    border: 2px solid #f96262;  
+    background-color: #fceaea;  
+}
+
+input[type="email"].error:focus {
+    border: 2px solid #f96262;  
+    outline: none; 
+}
+.attribution {
+    text-align: center;        
+    font-size: 0.9rem;         
+    color: #fff;            
+    margin-top: 20px;          
+    padding: 10px 0;            
+    width: 100%;                
+    opacity: 0.8;               
+}
+.attribution a {
+    color: #ff5e62;  
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    max-width: 900px;        
+    margin: 0 auto;          
+}
